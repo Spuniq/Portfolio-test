@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;	
+	
+}
+
+body {
+	margin: 0 0 0 0;
+	
+}
+
+.fullscreen {
+	height: 100vh;
+	padding: 5vw;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+.scroller {
+	position: absolute;
+	bottom: 3vh;
+	left: 50vw;
+	padding: 1em;
+	background-color: aqua;
+	transform: translateX(-50%);
+	
+	
+}
+
+#first {
+	background-color: #ff0000;
+	
+}
+
+#last {
+	background-color: navy;
+	
+	
+}
+
+figure {
+	width: 60vw;
+	height: 65vh;
+	background-color: aqua;	
+	margin: 0;
+	
+}
+
+figure img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	
+}
+
+.explain {
+	width: 25vw;
+	padding: 3vw;
+	background-color: green;
+	
+	
+}
+
+
+.top-left {
+	position: absolute;
+	top: 7vh;
+	left: 7vh;
+	
+
+}
+
+.bottom-left {
+	position: absolute;
+	bottom: 7vh;
+	left: 7vh;
+	
+
+}
+
+.top-right {
+	position: absolute;
+	top: 7vh;
+	right: 7vh;
+	
+
+}
+
+.bottom-right {
+	position: absolute;
+	bottom: 7vh;
+	right: 7vh;
+	
+
+}
